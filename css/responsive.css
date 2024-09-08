@@ -11,8 +11,8 @@
         min-width: 280px;
     }
     .logo{
-        min-width: 80px;
-        max-width: 150px;
+        min-width: 100px;
+        max-width: 250px;
     }
     .text-bg h1{
         font-size: 40px;
@@ -27,6 +27,12 @@
         flex-direction: column;
         text-align: center;
     }
+    .call_now2 span {
+        font-size: 21px;
+    }
+    .call_now span {
+        font-size: 35px;
+   }
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
