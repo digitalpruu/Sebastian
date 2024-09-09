@@ -1211,7 +1211,7 @@ position: inherit;
      font-weight: bold;
      color: #2d2e2e;
      line-height: 46px;
-     font-size: 40px;
+     font-size: 35px;
      padding-bottom: 20px;
 }
 
@@ -1267,17 +1267,6 @@ border-left: inherit;
      margin: 0 auto;
    border-radius: 30px;
 display: block;
-}
- .contact .contact .send:hover {
-     background-color: #f2740d;
- 
-     color: #fff;
-}
- .rable-box figure {
-    margin: 0px;
-}
- .rable-box figure img {
-    width: 100%;
 }
 
 .button-container{
