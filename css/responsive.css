@@ -32,7 +32,13 @@
     }
     .call_now span {
         font-size: 35px;
-   }
+    }
+    .call_now h3{
+        font-size: 20px;
+    }
+    .primary-button{
+        width: 300px;
+    }
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
