@@ -4,6 +4,9 @@
     padding: 0;
     font-family: "Roboto", sans-serif;
 }
+a{
+    text-decoration: none;
+}
 html{
     font-size: 62.5%;
 }
@@ -11,14 +14,14 @@ html{
 .nav-container{
     width: 100%;
     height: auto;
-    background-color: orangered;
+    background: #91631d;
     nav{
         .logo-nav{
             display: flex;
             justify-content: center;
-            padding-top: 20px;
+            padding-top: 10px;
             img{
-                width: 60vw;
+                width: 80vw;
             }
         }
         .menu{
@@ -35,8 +38,8 @@ html{
                         text-decoration: none;
                         font-weight: 700;
                         &:hover{
-                            color: #4CB5B0;
-                            transform: scale(1.1);  
+                            color: black;
+                            transform: scale(2.1);  
                         }
                     }
                 }
@@ -49,10 +52,8 @@ html{
 main{
     width: 100%;
     .hero{
-        padding: 60px 0;
-        background-color: yellow;
         .hero-title{
-            color: orangered;
+            color: black;
             padding-bottom: 32px;
             text-align: center;
             div{
@@ -92,7 +93,7 @@ main{
             overscroll-behavior-x: contain;
             scroll-snap-type: x proximity;
             .product-card{
-                background-color: #4CB5B0;
+                background-color: #b08c20;
                 scroll-snap-align: center;
                 margin: 0 10px;
                 width: 40vw;
@@ -118,7 +119,6 @@ main{
     }
 
     .catalogue{
-        border-top: 1px solid black;
         padding: 60px 0;
         text-align: center;
         h2{
@@ -132,8 +132,8 @@ main{
     }
 
     .about-us{
-        border-top: 1px solid black;
-        padding: 60px 0;
+        padding-top: 30px;
+        background-color: #b08c2084;
         .about-us-text{
             text-align: center;
             padding-bottom: 20px;
@@ -156,7 +156,7 @@ main{
     }
 
     .contact{
-        padding: 60px 0;
+        padding: 20px 0;
         text-align: center;
         border-top: 1px solid black;
         .contact-image{
@@ -195,32 +195,44 @@ main{
     }
 }
 
-
 footer{
-    padding: 20px 20px;
-    text-align: center;
-    background-color: orangered;
-    color: yellow;
+    padding: 0 10px;
+    background: linear-gradient(207.8deg, #91631d 16.69%, #b08c20 100%);
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
     .social-media{
+        text-align: center;
         h3{
-            font-size: 2rem;
-            font-weight: bold;
-            padding: 10px 0;
+            padding: 15px 0;
+            font-size: 2.5rem;
+            color: antiquewhite;
         }
-        p{
-            font-size: 1.5rem;
-            font-weight: 600;
+        .social-icons{
+            a{
+                img{
+                    width: 15vw;
+                    padding: 5px 5px;
+                    &:hover{
+                        transform: scale(2.1);  
+                    }
+                }
+            }
         }
     }
     .number{
-        @extend .social-media;
+        text-align: center;
+        padding: 30px 0;
+        p{
+            font-size: 2rem;
+            font-weight: 600;
+            color: aliceblue;
+        }
     }
     .logo-footer{
-        padding: 15px 0;
+        padding: 5px 0;
         img{
-            width: 25vw;
+            width: 40vw;
         }
     }
 }

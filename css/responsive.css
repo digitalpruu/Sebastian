@@ -11,8 +11,8 @@
         min-width: 280px;
     }
     .logo{
-        min-width: 100px;
-        max-width: 250px;
+        min-width: 80px;
+        max-width: 150px;
     }
     .text-bg h1{
         font-size: 40px;
@@ -28,7 +28,7 @@
         text-align: center;
     }
     .call_now2 span {
-        font-size: 21px;
+        font-size: 18px;
     }
     .call_now span {
         font-size: 35px;
@@ -44,24 +44,13 @@
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
     .text-img{
         max-width: 500px;
-    }
-    .logo{
-        width: 150px;
+        min-width: 300px;
     }
     .text-bg h1{
         font-size: 50px;
     }
-    .call_now2 span {
-        font-size: 16px;
-    }
-    .call_now span {
-        font-size: 25px;
-    }
-    .call_now h3{
-        font-size: 20px;
-    }
-    .primary-button{
-        width: 300px;
+    .logo{
+        width: 150px;
     }
 }
 

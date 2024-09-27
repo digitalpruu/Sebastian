@@ -5,6 +5,10 @@
   font-family: "Roboto", sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
 html {
   font-size: 62.5%;
 }
@@ -12,15 +16,15 @@ html {
 .nav-container {
   width: 100%;
   height: auto;
-  background-color: orangered;
+  background: #91631d;
 }
 .nav-container nav .logo-nav {
   display: flex;
   justify-content: center;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 .nav-container nav .logo-nav img {
-  width: 60vw;
+  width: 80vw;
 }
 .nav-container nav .menu {
   padding-top: 32px;
@@ -38,19 +42,15 @@ html {
   font-weight: 700;
 }
 .nav-container nav .menu ul li a:hover {
-  color: #4CB5B0;
-  transform: scale(1.1);
+  color: black;
+  transform: scale(2.1);
 }
 
 main {
   width: 100%;
 }
-main .hero {
-  padding: 60px 0;
-  background-color: yellow;
-}
 main .hero .hero-title {
-  color: orangered;
+  color: black;
   padding-bottom: 32px;
   text-align: center;
 }
@@ -88,7 +88,7 @@ main .product .product-section {
   scroll-snap-type: x proximity;
 }
 main .product .product-section .product-card {
-  background-color: #4CB5B0;
+  background-color: #b08c20;
   scroll-snap-align: center;
   margin: 0 10px;
   width: 40vw;
@@ -111,7 +111,6 @@ main .product .product-section .product-card h3 {
   font-size: 1.5rem;
 }
 main .catalogue {
-  border-top: 1px solid black;
   padding: 60px 0;
   text-align: center;
 }
@@ -124,8 +123,8 @@ main .catalogue img {
   width: 100%;
 }
 main .about-us {
-  border-top: 1px solid black;
-  padding: 60px 0;
+  padding-top: 30px;
+  background-color: rgba(176, 140, 32, 0.5176470588);
 }
 main .about-us .about-us-text {
   text-align: center;
@@ -146,7 +145,7 @@ main .about-us .about-us-img img {
      object-fit: cover;
 }
 main .contact {
-  padding: 60px 0;
+  padding: 20px 0;
   text-align: center;
   border-top: 1px solid black;
 }
@@ -179,25 +178,39 @@ main .contact .contact-title a button:hover {
 }
 
 footer {
-  padding: 20px 20px;
-  text-align: center;
-  background-color: orangered;
-  color: yellow;
+  padding: 0 10px;
+  background: linear-gradient(207.8deg, #91631d 16.69%, #b08c20 100%);
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
 }
-footer .social-media h3, footer .number h3 {
+footer .social-media {
+  text-align: center;
+}
+footer .social-media h3 {
+  padding: 15px 0;
+  font-size: 2.5rem;
+  color: antiquewhite;
+}
+footer .social-media .social-icons a img {
+  width: 15vw;
+  padding: 5px 5px;
+}
+footer .social-media .social-icons a img:hover {
+  transform: scale(2.1);
+}
+footer .number {
+  text-align: center;
+  padding: 30px 0;
+}
+footer .number p {
   font-size: 2rem;
-  font-weight: bold;
-  padding: 10px 0;
-}
-footer .social-media p, footer .number p {
-  font-size: 1.5rem;
   font-weight: 600;
+  color: aliceblue;
 }
 footer .logo-footer {
-  padding: 15px 0;
+  padding: 5px 0;
 }
 footer .logo-footer img {
-  width: 25vw;
+  width: 40vw;
 }/*# sourceMappingURL=styles.css.map */
